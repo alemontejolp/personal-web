@@ -29,8 +29,18 @@
   width: 100%;
 }
 
+.image-profile {
+  width: 460px;
+}
+
 @media (max-width: 800px) {
   .only-text-bock {
+    width: 100%;
+  }
+}
+
+@media (max-width: 550px) {
+  .image-profile {
     width: 100%;
   }
 }
