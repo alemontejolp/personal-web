@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.user-picture {
+  display: block;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.picture-block {
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.vert-margin {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.only-text-bock {
+  width: 700px;
+  margin: auto;
+}
+
+.full-width {
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .only-text-bock {
+    width: 100%;
+  }
+}
